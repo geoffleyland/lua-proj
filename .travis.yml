@@ -13,8 +13,12 @@ before_install:
   - hererocks lua_install -r^ --$LUA
   - export PATH=$PATH:$PWD/lua_install/bin
 
+addons:
+  apt:
+    packages:
+      - libproj-dev
+
 install:
-  - apt-get install libproj-dev
   - luarocks install luacheck
   - luarocks install busted
   - luarocks install luacov
