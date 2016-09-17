@@ -1,5 +1,8 @@
 # lua-proj - Binding to [Proj.4](https://github.com/OSGeo/proj.4)
 
+[![Unix Build Status](https://travis-ci.org/geoffleyland/lua-proj.svg?branch=master)](https://travis-ci.org/geoffleyland/lua-proj)
+[![Coverage Status](https://coveralls.io/repos/github/geoffleyland/lua-proj/badge.svg?branch=master)](https://coveralls.io/github/geoffleyland/lua-proj?branch=master)
+
 ## 1. What?
 
 Proj.4 is a library for converting coordinates between geographic projections.
