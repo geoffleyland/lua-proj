@@ -55,9 +55,18 @@ on to Proj.4.
 
 ## 3. Requirements
 
-LuaJIT >= 2.0.0.
+ + Proj.4 installed on your system
+ + Lua >= 5.1 or LuaJIT >= 2.0.0.
+ + For building, you need the proj4 headers installed.  Strictly speaking,
+ this is only for Lua, not LuaJIT, but the rock builds the binding either way.
 
 
-## 4. Alternatives
+## 4. Wishlist
 
-+ I don't know of any
+ + I don't know enough about windows to get Proj.4 installed before building
+ and testing for AppVeyor.
+
+
+## 5. Alternatives
+
++ [lua-proj4](https://github.com/miurahr/lua-proj4)
